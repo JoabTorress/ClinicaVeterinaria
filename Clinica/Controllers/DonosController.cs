@@ -9,7 +9,8 @@ using System.Data.SqlClient;
 namespace Clinica.Controllers
 {
      
-
+[Route("api/[controller]")]
+[ApiController]
     
     public class DonosController : ControllerBase
     {
