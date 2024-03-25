@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Clinica</name>
+    </assembly>
+    <members>
+        <member name="M:Clinica.Controllers.DonosController.Cadastrar(Clinica.Models.Dono)">
+            <summary>
+            Cadastra Donos na Aplicação
+            </summary>
+            <param name="dono">Dados do Dono</param>
+            <returns>Dados do Dono cadastrado</returns>
+        </member>
+        <member name="M:Clinica.Controllers.DonosController.Listar">
+            <summary>
+            Lista todos os Donos da aplicação
+            </summary>
+            <returns>Lista de Donos</returns>
+        </member>
+        <member name="M:Clinica.Controllers.DonosController.Alterar(System.Int32,Clinica.Models.Dono)">
+            <summary>
+            Alterar Nome dos donos
+            </summary>
+            <param name="dono"></param>
+            <returns>Alterado nome do Dono</returns>
+        </member>
+        <member name="M:Clinica.Controllers.DonosController.Delete(System.Int32)">
+            <summary>
+            Exclui o cadastro do Dono
+            </summary>
+            <param name="id">Id do Dono</param>
+            <returns>Deletar</returns>
+        </member>
+    </members>
+</doc>
